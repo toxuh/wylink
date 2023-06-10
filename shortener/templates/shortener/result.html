@@ -1,0 +1,6 @@
+{% extends 'shortener/base.html' %}
+
+{% block content %}
+  <h2>Your shortened URL</h2>
+  <p><a href="{{ request.scheme }}://wyl.ink/{{ shortened_link }}">{{ request.scheme }}://wyl.ink/{{ shortened_link }}</a></p>
+{% endblock %}

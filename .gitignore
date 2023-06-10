@@ -1,0 +1,44 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+*$
+.db
+db.sql
+migrations/
+media
+
+# Docker
+.DS_Store
+docker-compose.override.yml
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# SQLite
+*.sqlite3
+*.sqlite3-journal
+
+# PostgreSQL
+*.backup
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Other
+*.py~
+*.swp
+*~
+.DS_Store
