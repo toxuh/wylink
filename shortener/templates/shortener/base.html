@@ -1,10 +1,32 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Link Shortener</title>
+    <title>WYL.INK - Simple and Fast Link Shortener</title>
+    <link href="{% static 'shortener/styles.css' %}" rel="stylesheet">
+
+    <meta name="description" content="WYL.INK is a simple and fast link shortener service. Shorten your long URLs quickly and easily.">
+    <meta name="keywords" content="URL, Shortener, Link, Short, WYL.INK, Fast, Simple">
+    <meta name="robots" content="index, follow">
+    <meta charset="UTF-8">
+    <meta name="author" content="WYL.INK">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wyl.ink/">
+    <meta property="og:title" content="WYL.INK - Simple and Fast Link Shortener">
+    <meta property="og:description" content="WYL.INK is a simple and fast link shortener service. Shorten your long URLs quickly and easily.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://wyl.ink/">
+    <meta property="twitter:title" content="WYL.INK - Simple and Fast Link Shortener">
+    <meta property="twitter:description" content="WYL.INK is a simple and fast link shortener service. Shorten your long URLs quickly and easily.">
 </head>
 <body>
   <div class="container">
+    <h1>WYL.INK</h1>
     {% block content %}
     {% endblock %}
   </div>

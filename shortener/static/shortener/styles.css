@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    margin-top: -200px
+}
+
+h1 {
+    color: #ccc; /* Light color */
+    font-size: 60px; /* Large size */
+    font-weight: bold; /* Weighty */
+    margin-bottom: 50px; /* Space below */
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px; /* Add some space below the paragraph */
+}
+
+a {
+    font-size: 32px; /* Increase the size */
+    color: #007BFF; /* Make it blue */
+    text-decoration: none; /* Remove the underline */
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3; /* Darken the color on hover */
+}
+
+input[type=url] {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: border 0.3s ease-in-out;
+}
+
+input[type=url]:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+button[type=submit] {
+    background-color: #f4f4f4;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button[type=submit]:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
